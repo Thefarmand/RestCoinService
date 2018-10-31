@@ -1,0 +1,25 @@
+$fontColor: #0091aa;
+$colorHeading: #be4a14;
+#content  // div with id: content
+{
+    color: $fontColor;
+}
+
+h2
+{
+    color: $colorHeading;
+}
+
+h1{
+    @extend h2;
+}
+
+#list_bids{
+    width: 500px;
+    height: 300px;
+}
+
+td#res{
+    width: 100px;
+    background-color: aquamarine;
+}

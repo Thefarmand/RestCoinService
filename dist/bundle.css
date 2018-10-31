@@ -1,0 +1,13 @@
+#content {
+  color: #0091aa; }
+
+h2, h1 {
+  color: #be4a14; }
+
+#list_bids {
+  width: 500px;
+  height: 300px; }
+
+td#res {
+  width: 100px;
+  background-color: aquamarine; }
