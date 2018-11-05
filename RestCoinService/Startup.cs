@@ -41,7 +41,8 @@ namespace RestCoinService
                 options =>
                 {
                     options.AllowAnyOrigin().AllowAnyMethod(); // allow everything from anywhere
-                });
+                });
+
             app.UseMvc();
         }
     }
