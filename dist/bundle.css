@@ -1,0 +1,82 @@
+#content {
+  color: #0091aa; }
+
+body {
+  font-family: Arial;
+  background-color: lightgrey; }
+
+#wrapper {
+  max-width: 1200px;
+  margin: auto; }
+
+nav {
+  max-width: 1200px;
+  height: 50px;
+  text-align: center;
+  margin: auto; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h2, h1 {
+  color: blue;
+  text-align: left; }
+
+nav h1 {
+  color: black;
+  text-align: center;
+  margin: 0 auto; }
+
+h1 {
+  text-align: center;
+  margin: 0px 0px; }
+
+#list_bids {
+  width: 500px;
+  height: 300px; }
+
+td#res {
+  width: 100px;
+  background-color: aquamarine; }
+
+#getDiv {
+  width: 32%;
+  float: left;
+  margin: 10px 5px; }
+
+th, td {
+  width: 1%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 0;
+  border-radius: 2px; }
+
+th:hover, td:hover {
+  color: #be4a14;
+  font-style: italic;
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px; }
+
+#bidIdInput, #postIdInput, #postItemInput, #postOfferInput, #postNameInput {
+  margin-top: 10px;
+  width: 75%; }
+
+input {
+  width: 25%; }
+
+table {
+  margin-top: 10px; }
+
+button {
+  margin-top: 10px;
+  width: 75%; }
+
+button:hover {
+  background-color: aqua; }
+
+input:hover {
+  background-color: aqua; }
