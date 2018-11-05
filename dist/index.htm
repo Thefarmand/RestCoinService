@@ -1,41 +1,54 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="utf-8">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Coding Template</title>
+  <title>Eksamen bid coins</title>
   <link rel="stylesheet" type="text/css" href="bundle.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
+<nav><h1>Eksamensopgave 30-10-2018</h1></nav>
 <body>
-  <h1>Eksamen 30-10-2018</h1>
-  <h2>Coinmarket</h2>  
-  <div id="content"></div>
-  <textarea id="list_bids"></textarea>
-  <button id = "getList" type="button">Hent liste
-  </button>
-
-  <div class="res">
-    <table>
-      <tr>
-        <td id="res">ID:</td>
-        <td id="res">Genstand:</td>
-        <td id="res">Bud:</td>
-        <td id="res">Navn:</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="hent">
-    <input type="number" id="input" placeholder="Indtast ID">
-    <button id="resultat">Hent</button>
-    <h2>Resultat:  </h2>
-  <span id="output"></span>
-  </div>
+  <div id="wrapper">
+    <div id="getDiv">
+      <h2>List over bids:</h2>
+      <table id="bidsTable">
+        <tr id="header">
+          <th>ID</th>
+          <th>Genstand</th>
+          <th>Bud</th>
+          <th>Navn</th>
+        </tr>
+      </table>
+    </div> 
+    <div id="getDiv">
+      <h2>Single bid:</h2>
+      <div class="input">
+        <input type="number" placeholder="Insert ID to search" id="bidIdInput">
+        <button type="button" id="getCoinButton">Get coin bid</button>
+      </div><br>
+      <table id="bidTable">
+        <tr id="header">
+          <th>ID</th>
+          <th>Genstand</th>
+          <th>Bud</th>
+          <th>Navn</th>
+        </tr>
+      </table>
+    </div>
+    <div id="getDiv">
+      <h2>Post bid:</h2>
+      <div>
+        <input type="number" placeholder="Insert id" id="postIdInput">
+        <input type="text" placeholder="Insert coin" id="postItemInput">
+        <input type="number" placeholder="Insert offer" id="postOfferInput">
+        <input type="text" placeholder="Insert name" id="postNameInput">
+        <button type="button" id="postCoinButton">Submit coin bid</button>
+      </div>
+    </div>
+    </div>
   <script src="bundle.js"></script>
+</div>
 </body>
+
 </html>
